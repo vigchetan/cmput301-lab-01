@@ -4,19 +4,18 @@ import java.util.Date;
 
 public class Sad extends Mood {
 
-    // Constructor 1: Uses default date (current date)
+    // Constructor 1
     public Sad() {
-        super(); // Calls Mood() constructor
+        super();
     }
 
-    // Constructor 2: Takes a date as argument
+    // Constructor 2
     public Sad(Date date) {
-        super(date); // Calls Mood(Date) constructor
+        super(date);
     }
 
-    // Override abstract method to return mood description
     @Override
     public String getMoodDescription() {
-        return "Sad - feeling down and melancholic";
+        return "Feeling down and melancholic";
     }
 }

@@ -4,19 +4,18 @@ import java.util.Date;
 
 public class Happy extends Mood {
 
-    // Constructor 1: Uses default date (current date)
+    // Constructor 1
     public Happy() {
         super(); // Calls Mood() constructor
     }
 
-    // Constructor 2: Takes a date as argument
+    // Constructor 2
     public Happy(Date date) {
-        super(date); // Calls Mood(Date) constructor
+        super(date);
     }
 
-    // Override abstract method to return mood description
     @Override
     public String getMoodDescription() {
-        return "Happy - feeling joyful and content";
+        return "Feeling joyful and content";
     }
 }
